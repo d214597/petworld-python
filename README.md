@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# petworld-python
-=======
-## Local setup guide
 
 ***
 > This guide should be used for local setup and testing only purposes. Don't use any credentials you might bump into in files like `docker-compose.yml` in production.
@@ -11,7 +7,7 @@
 3. Apply the latest migrations you have in `alembic/versions` folder. For this use `alembic upgrade head` command.
 4. Follow `localhost:8000/docs` to have a view of APIs available to do further dev testing
 
-## Homework
+
 0. Setup the project locally and make sure it's running without any issues
 1. Configure and implement logging functionality so that every request is logged into console and separate file named `pet.log`. This logging data should contain:
    * Request URL
