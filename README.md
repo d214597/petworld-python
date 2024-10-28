@@ -13,11 +13,13 @@ Steps Taken:
 
 Logging Implementation:
 1. The project was successfully set up locally and verified to be running without errors.
-2. Configured and implemented logging functionality that records every request to the console and a separate file named pet.log. The log data includes:
+2. Configured and implemented logging functionality that records every request to the console and a separate file named pet.log.
+The log data includes:
 Request URL
 Request method
 Status code
 Total time required to complete the request
-Additionally, implemented the same logging functionality using a decorator approach to improve code structure and conciseness.
+
+3.Additionally, implemented the same logging functionality using a decorator approach to improve code structure and conciseness.
 
 >>>>>>> 7444c28 (Initial commit of petworld-python project)
